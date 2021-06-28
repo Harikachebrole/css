@@ -1,0 +1,56 @@
+<html>
+<head>
+<style>
+<p>Add positions to CSS block (static, relative, fixed, absolute and sticky).*/</p>
+div.static
+{
+position:static;
+border: 3px solid green;
+}
+div.relative
+{
+position:relative;
+left: 30px;
+right:30px;
+ border: 3px solid green;
+}
+div.fixed
+{
+position:fixed;
+bottom:40;
+  right: 40;
+  width: 300px;
+  border: 3px solid green;
+}
+div.absolute
+{
+position:absolute;
+top: 80px;
+  right: 40;
+  width: 100px;
+  height: 300px;
+  border: 3px solid #73AD21;
+}
+div.sticky
+{
+position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  color:white;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+</style>
+</head>
+<body>
+<br>
+<div class="static">sthis is static is not positioned in any special way; 
+it is always positioned according to the normal flow of the page:</div><br>
+<div class="relative">this is relative Setting the top, right, bottom, and left properties of a
+ relatively-positioned element will cause it to be adjusted away from its normal position.
+ Other content will not be adjusted to fit into any gap left by the element.</div><br>
+<div class="fixed">this is fixed</div><br>
+<div class="absolute">this is absolute</div><br>
+<div class="sticky">this is sticky</div><br>
+</body>
+</html>

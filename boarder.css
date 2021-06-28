@@ -1,0 +1,35 @@
+body
+{
+background-color:lightgrey;
+}
+p.mix
+{
+	border-width:5px;
+	border-style:solid dotted double dashed;
+	border-color:red;
+}
+p.solid
+{
+	border-width:5px;
+	border-style:solid;
+	border-color:red;
+}
+p.dotted
+{
+border-color:solidblack;
+border-width:5px;
+border-style:dotted;
+
+}
+p.dashed
+{
+border-style:dashed;
+border-width:5px;
+border-color:lightblue;
+}
+p.double
+{
+	border-color:lightgrey;
+	border-style:double;
+	border-width:5px;
+}

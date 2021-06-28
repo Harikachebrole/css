@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+body
+{
+background-color:lightgreen;
+}
+
+c1
+{
+color:red;
+text-align:center;
+}
+p
+{
+font-style:italic;
+color:yellow;
+}
+</style>
+</head>
+<body>
+<c1>Css image and background color</c1>
+<p>CSS is the language we use to style an HTML document.
+CSS describes how HTML elements should be displayed.</p>
+</body>
+</html>
